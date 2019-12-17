@@ -1,32 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<title>Vocapp</title>
+  <body style="background-color:RGB(230, 230, 250);">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  text-align: center;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
 <body>
-  <script>
-  {% include "vocapp/homepage/index.js" %}
-  </script>
-<h1>Hello user !</h1>
-<P> Welcome to our website<p/>
-<p>
-  <button type="button" onclick="onLoginClick()" = >Go Login</button>
-</p>
+<div class="header">
+  <h1>Vocapp</h1>
 
-<p>
+</div>
 
-  <button type = "button" onclick = "onContactClick()" >Go Contact </button>
-</p>
+<div class="topnav">
 
-<p>
-  <button type="button"onclick ="onRegisterClick()">Go Register</button>
-</p>
+  <a href="/register">Register</a>
 
-<p id="version"></p>
-<p>
-  <button type="button"onclick="onVersionClick()">Go Version</button>
-</p>
+  <a href="/login">Login</a>
 
-<p>
-  <button type="button"onclick ="onDashboardClick()">Go Dashboard</button>
-</p>
+  <a href="/dashboard">Dashboard</a>
+
+  <a href="/profile">Profile</a>
+
+  <a href="/password">Password</a>
+
+  <a href="/contact">Contact</a>
+
+  <a href="/logout">Logout</a>
+
+
+
+  <audio src="/music/Valentin - A Little Story.mp3" controls>
+<p>Fallback content goes here.</p>
+</audio>
+</div>
+
+
+
+
+<title>Font Awesome Icons</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<!--Get your own code at fontawesome.com-->
+</head>
+<body>
+  <br></br>
+
+<h3>Don't be afraid to try new things.</h3>
+<i class="fas fa-cloud" style="font-size:30px;color:red;"></i>
+<i class="fas fa-cloud" style="font-size:40px;color:orange;"></i>
+<i class="fas fa-cloud" style="font-size:50px;color:yellow;"></i>
+<i class="fas fa-cloud" style="font-size:60px;color:green;"></i>
+<i class="fas fa-cloud" style="font-size:70px;color:lightgreen;"></i>
+<i class="fas fa-cloud" style="font-size:90px;color:lightblue;"></i>
+<i class="fas fa-cloud" style="font-size:100px;color:purple;"></i>
+
+
 
 
 

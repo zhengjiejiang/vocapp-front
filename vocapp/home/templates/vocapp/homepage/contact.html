@@ -4,9 +4,114 @@
   <script>
   {% include "vocapp/homepage/contact.js" %}
   </script>
-<h1>Now , Welcome to the contact page </h1>
-<h2> If you meet trouble let me know </h2>
-<br> <br/>
-      <h2>    Call: 2269983837 </h2>
 
-<button type = "button" onclick = "onBackClick()" >Go Back To The Index </button>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #93B5C5;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #FDFF93;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #86F8C9;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #0;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Contact</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+
+        <h1> Oh, I am sorry to see you in here </h1>
+            <br> <br/>
+        <h2>   Email :  </h2>
+
+        <h2>           Phone Call: </h2>
+    </ul>
+  </nav>
+
+  <article>
+
+    <h1> But , Don't worry about that contact me </h1>
+    <br> <br/>
+          <h2> 898078550@qq.com </h2>
+
+          <h2>  2269983837 </h2>
+</section>
+
+<footer>
+  <p><button type = "button" styl="h" onclick = "onBackClick()" >Back</button>
+</p>
+</footer>
+
+</body>
+</html>

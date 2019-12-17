@@ -1,0 +1,33 @@
+<!-- register/index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+<title> Vocapp | Login</title>
+</head>
+<body>
+    <script>
+        {% include "vocapp/gateway/login.js" %}
+    </script>
+
+    <h1>Login</h1>
+    <p>
+    Username:
+    <input id="username" name="username" type="text"></input>
+    </p>
+
+    <p>
+    Password:
+    <input id="password" name="password" type="password"></input>
+    </p>
+
+    <p>
+    <button type="button" onclick="onLoginClick()">Login</button>
+    <button type="button" onclick="onBackClick()">Back</button>
+    </p>
+
+
+
+
+
+</body>
+</html>
